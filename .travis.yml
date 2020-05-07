@@ -1,0 +1,14 @@
+language: node_js
+node_js:
+- '10'
+install:
+- npm install
+script:
+- npm test
+deploy:
+  provider: heroku
+  app: metosamuka
+  true:
+    repo: meto/metosamuka
+  api_key:
+    secure: YCJHZZG/99hvxzeSTjYxDddbfm9quEr9s2qW5Yd8zcjrIXXHizL6XbjbKR7mdcB3H+XZGOEE0kgB/le5UHP8f41BKhGDPZJ6Paurv1ggZEEzOmvThpkI10xi5V1v4rmgrAtpFP1Xabt5he521Yv2X+7czazD01iMQ8jRkuLOC4bk0+vRwsos8bs/lAsLgDP/8q+ATidG6WSodLkCDW5iAYxDHJEWwaQFggapIGoSer0I6lN30N+ykYU45GKz80woJ1SRZqJ7iGaI1fSyGaLCB7XQfdYEGef3pkdGeUbYDdCNLVDdajjaLfkuMNtdqwi9VQ7i4yy/xItk4Igm6wCJjPh2BuK1l8BYy3AoQTD5LCwxhws5/OrpDGMbpvkOPSFvUcKpivY4JM4TKvDBEf8uvEyY8SHcE+dUEzfXLfZWglWHEPEC2Dm89XgR6xl+nJGw2wroQVwBd+sl7Y9GcBmosqRzToiMTT43DP30pT3/+OYyxTJaZtCjKYZzNIne0fijBLsOtW0GryQ8FD2inWCLiiSc1+23hC7T6ArX/ukfy8N9xACuNx7ozjfPv/DuQi1L6aSgqkLOeRB5DX1BYertVY8XDZv+QRhC4d3DxjsnAyie1jInBP4OFksC51BRf1VOamAkczMtSW8wsrD1/vwZZBpBdO4lid36Bht3HdTiX9w=
