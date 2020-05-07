@@ -24,15 +24,3 @@ Before you can run or deploy the sample, you need to do the following:
 
     npm start
 
-## Deploying to App Engine
-
-    gcloud app deploy
-
-## Running the tests
-
-See [Contributing][contributing].
-
-[appengine]: https://cloud.google.com/appengine/docs/standard/nodejs
-[tutorial]: https://cloud.google.com/appengine/docs/standard/nodejs/quickstart
-[readme]: ../../README.md
-[contributing]: https://github.com/GoogleCloudPlatform/nodejs-docs-samples/blob/master/CONTRIBUTING.md
